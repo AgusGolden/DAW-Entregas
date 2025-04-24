@@ -1,0 +1,396 @@
+html {
+  /*height: 1920px;*/
+  width: 100%;
+  font-size: 80px;
+}
+
+  body {
+    height: 100%;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+    #foto{
+      position: absolute;
+      top: 1.3em;
+      margin-left: 0.3em;
+      width: 31%;
+      border-radius: 50%;
+      z-index: 0;
+    }
+    
+    .corte {
+      content: "";
+      right:0;
+      top: 0.56em;
+      position: absolute;
+      border-bottom: 3em solid #8B8C91;
+      border-left: 1em solid #59595C;
+      margin-bottom: 1.96em;
+    }
+    header {
+      background-color: #59595C;
+      text-align: left;
+      letter-spacing: 4px;
+    }
+
+      header h1 {
+        margin-bottom: -0.5em;
+        font-size: 0.9em;
+        margin-left: 35%;
+        font-weight: 650;
+        color: white;
+      }
+      header h2 {
+        margin-top: 0;
+        padding-top: 1em;
+        font-size: 0.9em;
+        margin-left: 31%;
+        color: #ABABB0;
+        margin-bottom: -1.2em;
+      }
+      header h3 {
+        font-size: 0.35em;
+        padding-left: 40%;
+        font-weight: 300;
+        color: white;
+        margin-bottom: auto;
+        letter-spacing: 0;
+      }
+    
+    nav {
+      background-color: #8B8C91;
+      font-weight: 300;
+      font-size: 0.2em;
+      padding-left: 35%;
+      padding-right: 11%;
+      padding-bottom: 0.25em;
+      padding-top: 0.25em;
+      color: white;
+      line-height: 1.5em;
+    }
+
+    .contenedor-abajo {
+      font-size: 35px;
+      display: flex;
+      height: 100%;
+    }
+
+    aside {
+      min-height: 100%;
+      padding-top: 5em;
+      width: 35%;
+      min-width: 35%;
+      left: 0;
+      background-color: #3C2E36;
+      right: 2em;
+    }
+
+      /*.contenedor-contacto{}*/
+  
+        aside img {
+          position: absolute;
+          margin-left: 1em;
+          margin-top: -0.3em;
+          height: auto;
+          width: 6%;
+          border-radius: 50%;
+          z-index: 0;
+        }
+        aside h1 {
+          font-weight: 600;
+          font-size: 1em;
+          color: white;
+          padding-left: 30%;
+          margin-top: 1.5em;
+        }
+        aside .subrayado {
+          margin-left: 30%;
+          margin-top: -0.6em;
+          margin-bottom: 1em;
+          margin-right: 2em;
+          background-color: #59595C;
+          height: 0.13em;
+          border: none;
+        }
+        aside h2 {
+          font-weight: 600;
+          font-size: 0.65em;
+          color: #DEBFB0;
+          padding-left: 2em;
+          margin-bottom: -1em;
+        }
+        aside p {
+          padding-left: 2em;
+          font-weight: 300;
+          font-size: 0.58em;
+          color: white;
+        }
+
+      /*.contenedor-idiomas{}*/
+
+        .linea-idiomas:first-of-type {
+          margin-bottom: -1em;
+        }
+        .linea-idiomas {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        
+          .lengua{
+            width: 30%;
+            text-align: left;
+            padding-left: 2em;
+          }
+          .barra{
+            width: 30%;
+          }
+
+            .barra-idiomas {
+              width: 100%;
+              background-color: white;
+            }
+            .barra-idiomas div {
+              height: 0.3em;
+            }
+            
+              .total {
+                width: 100%;
+                background-color: white;
+              }
+        
+                .progreso {
+                  background: #DEBFB0;
+                  /*display: flex;*/
+                }
+                #español {
+                  width: 100%;
+                }
+                #ingles {
+                  width: 75%;
+                }
+
+          .porcentaje {
+            width: 33%;
+            text-align: left;
+            padding-left: 0;
+          }
+        
+      /*.contenedor-objetivos{}*/
+
+
+    section {
+      background-color: #FFFAF7;
+      width: 65%;
+      height: 100%;
+      right: 10em;
+      padding-left: 2em;
+    }
+
+      /*article {}*/
+      
+        .titulo {
+          font-weight: 600;
+          font-size: 1.4em;
+          color: #59595C;
+          margin-bottom:0;
+          padding-left: 14%;
+          margin-top: 1.5em;
+          padding-top: -10px;
+        }
+        
+        .subtitulo {
+          font-weight: 600;
+          font-size: 0.7em;
+          color: #4D5940;
+        }
+        #rol-technofit {
+          font-weight: 400;
+          font-size: 0.6em;
+          color: #5A654E;
+          margin-top: -1em;
+        }
+        
+        article .subrayado {
+          background-color:#3D2F36;
+          margin: -0em 2em 1em 3em; /*top right bottom left*/
+          height: 0.2em;
+          border: none;
+        }
+        
+        article img {
+          position: absolute;
+          margin-top: -0.3em;
+          height: auto;
+          width: 7%;
+          border-radius: 50%;
+          z-index: 0;
+        }
+        
+        .lista-externa li::marker {
+          color: #3D2F36;
+          font-size: 2em;
+          height: 2em;
+          display: inline-block;
+        }
+        .lista-externa {
+          
+          margin-right: 3em;
+          margin-left: 7%;
+        }
+          .lista-externa li{
+            margin-bottom: 1em;
+          }
+          .union-viñetas {
+            position: absolute;
+            background-color: #3D2F36;
+            margin-left: 3.4%; /*top right bottom left*/
+            height: 0;
+            border: none;
+            width: .1em;
+          }
+          #u-v-educacion {
+            height: 3.2em;
+          }
+          #u-v-informatica {
+            height: 5em;
+          }
+          #otros-conocimientos {
+            columns:2;
+          }
+            .lista-interna {
+              color: #60684F;
+              list-style-type: disc;
+              font-size: 0.5em;
+            }
+            .lista-interna li::marker {
+              color: #60684F;
+              font-size: 0.8em;
+            }
+            .lista-interna li{
+              margin-left: -2em;
+              margin-top: -1em;
+              margin-bottom: -1em;
+            }
+        
+/*
+a {
+  text-decoration: none;
+  margin:0;
+  color:red;
+  text-align: center;
+  padding: 4px;
+}
+a:hover, a:active{
+  color: orange;
+}
+.sin-estilo {
+  list-style-type: none;
+  margin: 0; 
+  padding: 0;
+}
+*/
+
+
+.tabla-conocimientos {
+  width: 90%;
+  margin: 2em auto;
+  border-collapse: collapse;
+  font-size: 0.7em;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tabla-conocimientos thead {
+  background-color: #3C2E36;
+  color: #fff;
+}
+
+.tabla-conocimientos th,
+.tabla-conocimientos td {
+  padding: 0.8em 1em;
+  border-bottom: 1px solid #ccc;
+  text-align: left;
+}
+
+.tabla-conocimientos tbody tr:nth-child(even) {
+  background-color: #F5F3F4;
+}
+
+.tabla-conocimientos tbody tr:hover {
+  background-color: #DEBFB0;
+  color: #3C2E36;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.tabla-conocimientos th {
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+
+
+footer {
+  background-color: #f8f8f8;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+
+footer h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+footer form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  min-width: 250px;
+}
+
+footer label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+footer input,
+footer textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+footer textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+footer button {
+  width: 100%;
+  max-width: 200px;
+  padding: 10px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+}
+
+footer button:hover {
+  background-color: #005fa3;
+}
