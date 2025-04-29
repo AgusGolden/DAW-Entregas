@@ -1,0 +1,78 @@
+html {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#cabecera {
+    background-image: url('https://images.unsplash.com/photo-1503264116251-35a269479413?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=60');
+    background-size: cover; /* Hace que la imagen cubra todo el div */
+    background-position: center; /* Centra la imagen */
+    height: 200px; /* Altura del banner */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2em;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#pie {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
+#pie a {
+    color: #00bfff; /* Color celeste para el enlace */
+    text-decoration: none;
+}
+#pie a:hover {
+    text-decoration: underline;
+}
+
+#naranja{
+    color: rgb(255, 145, 0);
+    font-weight: bold;
+}
+
+#subrayado_verde{
+    background-color: rgb(0, 255, 0);
+}
+#subrayado_celeste{
+    font-style: italic; /* Cursiva */
+    color: rgb(87, 188, 221); /* Pintado de celeste */
+    text-decoration-line: underline; /* Subrayado */
+}
+.game-based_learning{
+    text-decoration-color: red; /* Color rojo de subrayado */
+    text-decoration-style: dotted; /* Línea de puntos */
+    text-decoration-line: underline; /* Subrayado */
+}
+
+h2{
+    background-color: grey;
+}
+
+#fondo-amarillo-cursiva {
+    background-color: yellow;
+    font-style: italic;
+}
+
+#fondo-celeste {
+    background-color: lightblue;
+}
+
+.texto-rojo {
+    color: red;
+}
+
+.subrayado-negrita {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#texto-tachado {
+    text-decoration: line-through;
+}
