@@ -1,0 +1,6 @@
+- Modifique la siguiente linea:
+float: left;
+por:
+float: right;
+
+De esta manera me queda el menú en la posicion solicitada.

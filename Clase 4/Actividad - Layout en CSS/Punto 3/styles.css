@@ -1,0 +1,29 @@
+#contenedor {
+    width: 700px;
+    background-color: black;
+    }
+
+#cabecera {
+    background-color: blue;
+}
+h1 { /* FRAGMENTO AGREGADO */
+    margin-bottom: 0; 
+}
+
+#menu {
+    background-color: yellow;
+    float: left;
+    width: 15%;
+}
+
+#contenido {
+    background-color: grey;
+    float: left;
+    width: 85%;
+}
+
+#pie {
+    background-color: red;
+    clear: both;
+    display: none; /* LINEA AGREGADA */
+}

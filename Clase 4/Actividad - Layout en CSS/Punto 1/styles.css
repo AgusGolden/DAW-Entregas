@@ -1,0 +1,25 @@
+#contenedor {
+    width: 700px;
+    background-color: black;
+    }
+
+#cabecera {
+    background-color: blue;
+}
+
+#menu {
+    background-color: yellow;
+    float: right; /* LINEA MODIFICADA */ 
+    width: 15%;
+}
+
+#contenido {
+    background-color: grey;
+    float: left;
+    width: 85%;
+}
+
+#pie {
+    background-color: red;
+    clear: both;
+}

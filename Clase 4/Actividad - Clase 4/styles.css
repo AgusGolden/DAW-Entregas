@@ -1,0 +1,130 @@
+html {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor {
+    padding: 7px;
+}
+
+#cabecera {
+    background-image: url('https://images.unsplash.com/photo-1503264116251-35a269479413?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=60');
+    background-size: cover;
+    background-position: center;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#menu {
+    text-align: center;
+    margin: 20px 0;
+    background-color: rgb(153, 179, 204);
+    border: 2px solid #00297a;
+    border-radius: 10px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+
+#menu li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #00297a;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+#menu a:hover {
+    background-color: black;
+    color: white;
+}
+
+#pie {
+    background-color: rgb(153, 179, 204);
+    border: 2px solid #00297a;
+    border-radius: 10px;
+    color: #00297a;
+    text-align: center;
+    padding: 15px;
+    font-size: .8em;
+    font-weight: bold;
+}
+
+#pie a {
+    text-decoration: none;
+}
+
+#pie a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#titulo {
+    background-color: rgb(204, 204, 204);
+    font-weight: normal;
+    text-decoration-line: underline;
+}
+
+#naranja {
+    color: rgb(202, 115, 0);
+    font-weight: bold;
+}
+
+#subrayado_verde {
+    background-color: rgb(20, 230, 20);
+}
+
+#subrayado_celeste {
+    font-style: italic;
+    color: rgb(65, 125, 145);
+    text-decoration-line: underline;
+}
+
+.game-based_learning {
+    text-decoration-color: red;
+    text-decoration-style: dotted;
+    text-decoration-line: underline;
+}
+
+#fondo-amarillo-cursiva {
+    background-color: yellow;
+    font-style: italic;
+}
+
+#fondo-celeste {
+    background-color: rgb(57, 206, 255);
+}
+
+.rojo {
+    color: red;
+}
+
+.subrayado-negrita {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#tachado {
+    text-decoration: line-through;
+}
+
+li {
+    padding-bottom: 20px;
+}
