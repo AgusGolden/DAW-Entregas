@@ -1,4 +1,0 @@
-- agregué la siguiente linea en la cabecera dentro del CSS:
-display: none;
-
-De esta manera logro ocultar el contenido sin eliminarlo del HTML.

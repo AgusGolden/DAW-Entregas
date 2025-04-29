@@ -1,9 +1,0 @@
-- agregué la siguiente linea en píe dentro del CSS:
-display: none;
-
-De esta manera logro ocultar el contenido sin eliminarlo del HTML.
-
-Además, agregue un estilo para el h1 de manera que me quede mas prolijo eliminando el margen inferior que quedaba:
-h1 {
-    margin-bottom: 0; 
-}
