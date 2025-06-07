@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Formulario con Validaciones</title>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header>
+      <nav>
+          <ul>
+              <li>
+                <a href="https://www.google.com/search?q=GoldenSports"><strong>GoldenSports</strong></a>
+              </li>
+              <li>19/05/2025</li>
+          </ul>
+      </nav>
+
+      <h1>Boletín Deportivo</h1>
+      <p>Resumen semanal del deporte local - Edición Nº 15</p>
+  </header>
+  
+
+  <!-- CONTENIDO PRINCIPAL -->
+  <div class="container">
+
+    <section class="imagen-portada">
+      <img id="imagen-principal" src="https://images.unsplash.com/photo-1517927033932-b3d18e61fb3a?ixlib=rb-4.0.3&auto=format&fit=crop&w=3000&q=80" 
+      alt="imagen contenedor principal">
+    </section>
+      
+    <section class="contenedor-principal">
+
+      <article>
+        <p class="titulo-article">Fútbol Local</p>
+          <p class="texto-titulo">Victoria de Atlético Norte en el clásico barrial</p>
+          <p class="texto">
+            En un partido vibrante jugado el sábado por la tarde, Atlético Norte venció 2-1 a Deportivo Sur 
+            en la cancha municipal. Con goles de Gómez y Herrera, el equipo se mantiene en lo más alto de la 
+            tabla. La hinchada acompañó en gran número.
+          </p>
+      </article>
+
+      <article>
+        <p class="titulo-article">Básquet</p>
+          <p class="texto-titulo">Los Halcones siguen invictos en el torneo regional</p>
+          <p class="texto">
+            El equipo de básquet de Los Halcones ganó su sexto partido consecutivo frente a Club Libertad por 
+            89-76. La figura del encuentro fue Juan Pérez, que anotó 27 puntos y bajó 12 rebotes. El entrenador 
+            destacó la intensidad defensiva.
+          </p>
+      </article>
+
+      <article>
+        <p class="titulo-article">Atletismo</p>
+          <p class="texto-titulo">Camila Rojas rompe récord en los 100 metros</p>
+          <p class="texto">
+            En el torneo provincial disputado en Santa Rosa, la velocista Camila Rojas logró un tiempo de 11.42 
+            segundos, marcando un nuevo récord juvenil en los 100 metros. La atleta representará al país en el 
+            Sudamericano de Lima. 
+          </p>
+      </article>
+    </section>
+
+    <section class="contenedor-secundario">
+
+      <img id="imagen-secundario" src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=3000&q=80"
+        alt="imagen contenedor secundario">
+
+      <article>
+        <p class="titulo-secundario">Entrevista exclusiva: El DT de Atlético Norte habla del proyecto</p>
+        <p class="texto-secundario">"Trabajamos con una base de juveniles, apostamos al juego colectivo y a la 
+          formación fuera de la cancha también", declaró el entrenador Miguel Fernández en una entrevista exclusiva 
+          con nuestro equipo.
+        </p>
+        <p class="texto-secundario">
+          El técnico resaltó el esfuerzo diario del plantel, el compromiso del cuerpo técnico y la importancia del 
+          apoyo de la comunidad local. "Nuestro objetivo no es solo ganar partidos, sino construir una identidad 
+          deportiva y social en el barrio", concluyó.
+        </p>
+      </article>
+
+    </section>
+
+    <section class="Formulario">
+
+      <!-- Header con título dinámico -->
+      <div class="header-form">
+        <h2 class="header-title">FORMULARIO DE INSCRIPCIÓN</h2>
+        <h1 class="title" id="dynamicTitle">HOLA</h1>
+      </div>
+        
+      <!-- Contenedor del formulario -->
+      <div class="form-container">
+
+        <!-- Formulario principal -->
+        <form id="mainForm">
+
+          <!-- Grid que organiza los campos -->
+          <div class="form-grid">
+
+            <!-- Campo Nombre Completo -->
+            <div class="field-group">
+              <label for="nombreCompleto">Nombre Completo</label>
+              <input type="text" id="nombreCompleto" name="nombreCompleto" placeholder="Ingresá tu nombre completo">
+              <!-- Div donde aparecerán los mensajes de error para este campo -->
+              <div class="error-message" id="error-nombreCompleto"></div>
+            </div>
+
+            <!-- Campo Email -->
+            <div class="field-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="ejemplo@correo.com">
+              <!-- Div donde aparecerán los mensajes de error para este campo -->
+              <div class="error-message" id="error-email"></div>
+            </div>
+
+            <div class="field-group">
+              <label for="contraseña">Contraseña</label>
+              <input type="password" id="contraseña" name="contraseña" placeholder="Ingresá tu contraseña">
+              <div class="error-message" id="error-contraseña"></div>
+            </div>
+
+            <div class="field-group">
+              <label for="contraseña2">Repetir Contraseña</label>
+              <input type="password" id="contraseña2" name="contraseña2" placeholder="Repetí tu contraseña">
+              <div class="error-message" id="error-contraseña2"></div>
+            </div>
+
+            <div class="field-group">
+              <label for="edad">Edad</label> 
+              <input type="number" id="edad" name="edad" placeholder="Ingresá tu edad">
+              <div class="error-message" id="error-edad"></div>
+            </div>
+
+            <div class="field-group">
+              <label for="telefono">Teléfono</label>
+              <input type="tel" id="telefono" name="telefono" placeholder="Ingresá tu número de teléfono">
+              <div class="error-message" id="error-telefono"></div>
+            </div>
+
+            <div class="field-group">
+              <label for="direccion">Dirección</label>
+              <input type="text" id="direccion" name="direccion" placeholder="Ingresá tu dirección">
+              <div class="error-message" id="error-direccion"></div>
+            </div>
+
+            <div class="field-group">
+              <label for="ciudad">Ciudad</label>
+              <input type="text" id="ciudad" name="ciudad" placeholder="Ingresá tu ciudad">
+              <div class="error-message" id="error-ciudad"></div>
+            </div>
+            
+            <div class="field-group">
+              <label for="codigoPostal">Código Postal</label>
+              <input type="text" id="codigoPostal" name="codigoPostal" placeholder="Ingresá tu código postal">
+              <div class="error-message" id="error-codigoPostal"></div>
+            </div>
+
+            <div class="field-group">
+              <label for="dni">DNI</label>
+              <input type="number" id="dni" name="dni" placeholder="Ingresá tu DNI">
+              <div class="error-message" id="error-dni"></div>
+            </div>
+
+            <!-- Contenedor del botón enviar (ocupa las dos columnas en desktop) -->
+            <div class="submit-container">
+              <button type="submit" class="submit-btn">Enviar</button>
+            </div>
+
+          </div>
+
+        </form>
+
+      </div>
+
+      <!-- Modal (ventana emergente) - Inicialmente oculto -->
+      <div id="modal" class="modal">
+
+        <div class="modal-content">
+
+          <div class="modal-header">
+            <!-- Botón para cerrar el modal -->
+            <span class="close">&times;</span>
+            <!-- Título del modal (cambia según el contexto) -->
+            <h2 class="modal-title" id="modalTitle">Información del Formulario</h2>
+          </div>
+
+          <!-- Contenido del modal (se genera dinámicamente con JavaScript) -->
+          <div id="modalBody"></div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </div>
+
+  <!-- PIE DE PAGINA --> 
+  <footer>
+      <ul>
+          <li>© 2025 Goldenthal Agustín - Todos los derechos reservados</li>
+          <li>1</li>
+      </ul>
+  </footer>
+
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
